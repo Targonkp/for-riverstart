@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style-mini.css">
+    <title>Test task for Riverstart</title>
+</head>
+<body>
+<main class="main-block">
+    <div class="wrap">
+    <div class="sidebar">
+        <ul class="menu">
+            <li class="menu__header menu__header-top">Personal</li>
+            <li class="menu__element">Profile</li>
+            <li class="menu__element">Security</li>
+            <li class="menu__element">Notifications</li>
+        </ul>
+        <ul class="menu">
+        <li class="menu__header menu__header-bottom">Tesla s.r.L.</li>
+        <li class="menu__element">Business profile</li>
+        <li class="menu__element">E-invoicing</li>
+        <li class="menu__element menu__element-active" id="menuEl-1">Plan and limits</li>
+        <li class="menu__element">Team</li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="alternative-content"></div>
+        <div class="main-content__top">
+            <div class="content-header">
+                <a href="#" class="content-header__sign" id="change-plan">Change plan</a>
+                <h1>Invoicing Start</h1>
+                <h2><span class="payment">6,99</span> € <span class="month-opacity">/mo</span></h2>
+                <p class="content-header__paragraph">We’ll charge <span class="payment">6,99</span> € on Jul &nbsp; 24, 2020 <span class="card-info">Change card *** 5423  or billing info</span></p>
+                <div class="price-offer">
+                <a href="" class="button button-blue">Switch to annual plan</a>
+                <span>and save 24,00 € a year</span>
+               </div>
+            </div>
+            <div class="tariff-plan">
+                <div class="tariff-plan-header">
+                    <h4>Explore new features</h4>
+                    <img src="images/star.png" alt="">
+                </div>
+                <div class="tariff-plan-content">
+                    <span class="tariff-plan-close" id="close"></span>
+                    <h3>Invoicing Premium</h3>
+                    <div class="tariff-plan-wrap">
+                    <div class="characteristics">
+                        <ul class="characteristics-list">
+                            <li class="characteristics-list__element">Unlimited outgoing e-invoices</li>
+                            <li class="characteristics-list__element">Unlimited connected banks</li>
+                            <li class="characteristics-list__element">10 users</li>
+                            <li class="characteristics-list__element">Expense management</li>
+                        </ul>
+                    </div>
+                    <div class="price">
+                        <h3>€20.99 <span class="month">/mo</span></h3>
+                        <p class="price-paragraph">billed annually or 24.99 € </br> billed monthly</p>
+                        <a href="" class="button button-red">Upgrade</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content__bottom">
+            <div class="tabs">
+                <div class="tabs__nav tabs-nav">
+                    <div class="tabs-nav__item is-active" data-tab-name="tab-1">Limits</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-2">Invoices</div>
+                </div>
+                <div class="tabs__content tabs-content">
+                <div class="tabs-content__item tab is-active" id="tab-1">
+                    <div class="tab__element tab-element">
+                        <div class="tab-element__header"><span>Team members</span><span class="tab-element__parts">3&nbsp;<span> /&nbsp; 6 </span></span></div>
+                        <div class="tab-element__line tab-element__line-blue tab-line-1"></div>
+                        <div class="tab-element__bottom">Need more members? <span class="tab-element__bottom-border">Upgrade your plan</span></div>
+                    </div>
+                    <div class="tab__element">
+                        <div class="tab-element__header"><span>Outgoing e-invoice</span><span class="tab-element__parts"><span>Unlimited</span></span></div>
+                        <div class="tab-element__line tab-element__line-blue tab-line-2"></div>
+                        <div class="tab-element__bottom">Send as many e-invoices as you want Free</div>
+                    </div>
+                    <div class="tab__element">
+                        <div class="tab-element__header"><span>Connected sources (banks)</span><span class="tab-element__parts">5 &nbsp;<span> /&nbsp; 5</span></span></div>
+                        <div class="tab-element__line tab-element__line-red tab-line-3"></div>
+                        <div class="tab-element__bottom">Need more banks to connect? <span class="tab-element__bottom-border">Upgrade your plan</span></div>
+                    </div>
+                </div>
+                <div class="tabs-content__item tab" id="tab-2">
+                    <div class="tab__element tab-element">
+                        <div class="tab-element__header"><span>Team members</span><span class="tab-element__parts">2&nbsp;<span> /&nbsp; 6</span></span></div>
+                        <div class="tab-element__line tab-element__line-blue tab-line-4"></div>
+                        <div class="tab-element__bottom">Need more members? <span class="tab-element__bottom-border">Upgrade your plan</span></div>
+                    </div>
+                    <div class="tab__element">
+                        <div class="tab-element__header"><span>Outgoing e-invoice</span><span class="tab-element__parts">&nbsp;<span> / &nbsp;5</span></span></div>
+                        <div class="tab-element__line tab-element__line-blue tab-line-5"></div>
+                        <div class="tab-element__bottom">Send as many e-invoices as you want Free</div>
+                    </div>
+                    <div class="tab__element">
+                        <div class="tab-element__header"><span>Connected sources (banks)</span><span class="tab-element__parts">&nbsp;4<span> / &nbsp;5</span></span></div>
+                        <div class="tab-element__line tab-element__line-red tab-line-6"></div>
+                        <div class="tab-element__bottom">Need more banks to connect? <span class="tab-element__bottom-border">Upgrade your plan</span></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>
+<script src="js/app-mini.js"></script>
+</body>
+</html>
