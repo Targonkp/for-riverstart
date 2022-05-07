@@ -6,9 +6,11 @@ let alternativeContent = document.querySelector('.alternative-content');
 sidebarEl.addEventListener(
     'click',
     function (event) {
-        document.querySelectorAll('.menu__element').forEach(
-            item => item.classList.remove('menu__element-active')
-        );
+        if (!event.target.classList.contains('menu__header')){
+            document.querySelectorAll('.menu__element').forEach(
+                item => item.classList.remove('menu__element-active')
+            );
+        }
         if (event.target.classList.contains('menu__element')){
             event.target.classList.add('menu__element-active');
         }
